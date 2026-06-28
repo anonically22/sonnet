@@ -1,0 +1,21 @@
+{
+  "name": "sonnet",
+  "displayName": "sonnet",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "sonnet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonnet-color-theme.json"
+      }
+    ]
+  }
+}
