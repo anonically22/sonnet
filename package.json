@@ -1,10 +1,16 @@
 {
   "name": "sonnet",
-  "displayName": "sonnet",
-  "description": "",
-  "version": "0.0.1",
+  "displayName": "Sonnet",
+  "description": "Two dark VS Code color themes: Sonnet Crimson (black/white/crimson) and Sonnet Tsar (cold blue/frost white).",
+  "version": "0.1.0",
+  "publisher": "anonically22",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anonically22/sonnet.git"
+  },
   "engines": {
-    "vscode": "^1.125.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
@@ -12,9 +18,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "sonnet",
+        "label": "Sonnet Crimson",
         "uiTheme": "vs-dark",
-        "path": "./themes/sonnet-color-theme.json"
+        "path": "./themes/sonnet-crimson-color-theme.json"
+      },
+      {
+        "label": "Sonnet Tsar",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sonnet-tsar-color-theme.json"
       }
     ]
   }
